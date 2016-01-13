@@ -1,0 +1,5 @@
+
+<a>D script</a><br/>
+Print DataOut:
+<isprint value="${pdict.DataOut}" />
+<isprint value="${11}"/>

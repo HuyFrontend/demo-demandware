@@ -1,0 +1,3 @@
+<a>D script 2</a><br/>
+Print DataOut:
+<isprint value="${pdict.Product.price}" />

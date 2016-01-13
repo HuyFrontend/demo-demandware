@@ -1,0 +1,21 @@
+ <div>DEMO - SCOPE ATTRIBUTE</div>
+
+<!-- session scope  -->
+ <!-- <isset name="sessionVar" value="${1}" scope = "session"/> -->
+<isset name="sessionVar" value="${210}" scope="session"/>
+SESSION SCOPE: ${session.custom.sessionVar}<br/>
+<isset name="myVar" value="session here" scope="session"/>
+SESSION SCOPE 2: ${session.custom.myVar}<br/>
+
+<!-- request scope -->
+<isset name="requestVar" value="hello" scope="request" />
+REQUEST SCOPE: ${request.custom.requestVar}</br>
+<isset name="requestVar" value="${10}" scope="request" />
+REQUEST + 1: ${request.custom.requestVar + 1}</br>
+
+<!-- page scope -->
+<isset name="pageVar" value="this page scope variable" scope="page" />
+PAGE SCOPE: ${pageVar}<br/>
+<isset name="pageVar" value="${false}" scope="page" />
+PAGE SCOPE 2: ${pageVar}<br/>
+<!-- loop -->

@@ -1,0 +1,8 @@
+<!--- TEMPLATENAME: errorpage.isml --->
+ALERT ERROR!!!!
+<isinclude template="hello"/>
+
+<div> DECORATE</div>
+<isdecorate template="hello">
+Your code goes here.
+</isdecorate>
